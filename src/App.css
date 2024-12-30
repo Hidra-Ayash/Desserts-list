@@ -1,0 +1,175 @@
+body{
+  background-color: #eceff4;
+  overflow-x: hidden !important;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ 
+/* cards */
+ 
+ .cards-style {
+  display: flex;
+  flex-wrap: wrap;
+   margin-left: 60px;
+  }
+ .card-width {
+  width:225px !important; /* العرض الأساسي المعدل للبطاقة */
+  height: auto !important;
+  }
+  .card-width:hover{
+    border:0.1px rgba(224, 28, 10, 0.732) solid;
+    cursor: pointer;
+    transition: 0.1s;
+    }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* إضافة استعلامات الوسائط للشاشات الصغيرة */
+@media (max-width: 768px) {
+  .GridContainer {
+    flex-direction: column; /* تحويل الأعمدة إلى صفوف */
+  }
+
+  .GridItem {
+    width: 100%; /* جعل الأعمدة تأخذ عرض الشاشة بالكامل */
+  }
+}
+ 
+ .GridContainer {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100vw;
+  }
+
+ 
+  
+  /* استعلام الوسائط للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .GridContainer {
+      flex-direction: column; /* جعل الأعمدة تتكدس فوق بعضها */
+    }
+  
+    .GridItem {
+      width: 100%; /* جعل الأعمدة تأخذ عرض الشاشة بالكامل */
+    }
+  }
+  .typography{
+   font-family:RedHatText2 ,
+    sans-serif;
+   display: flex;
+   justify-content: start;
+    width: 100%;
+    color: #282c34;  
+    flex-direction: row; 
+     top: 20px ;
+    padding: 20px;
+    margin: 50px;
+    font-size: 45px;
+  }
+
+@font-face{
+  src: url("./product-list-with-cart-main/assets/fonts/RedHatText-Italic-VariableFont_wght.ttf");
+  font-family: RedHatText;
+}
+@font-face {
+  font-family: RedHatText2;
+  src: url("./product-list-with-cart-main/assets/fonts/RedHatText-VariableFont_wght.ttf");
+}
+.order-card{
+  width: 70%;
+    }
+ 
+  /* استعلام الوسائط للشاشات المتوسطة */
+  @media (max-width: 1024px) {
+    .card-width {
+      width: 100%; /* جعل العرض 70% للشاشات المتوسطة */
+    }
+    .order-card{
+      width: 100%;        
+
+      }
+  }
+  
+  /* استعلام الوسائط للشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .card-width {
+      width: 100%; /* جعل العرض 100% للشاشات الصغيرة */
+     }
+     .order-card{
+      width: 100% !important;
+      margin-right: 50px !important;
+        }
+       .GridItem-two{
+        margin-left:95px !important; 
+          }
+  }
+  @media(max-width:450px){
+    .order-card{
+      width: 100vw !important;
+      left: -20px !important;
+      position: relative;
+          }
+  }
+  
+  .button-card{
+    position: absolute;
+     bottom: 0;
+      left:35%; 
+      transform: translateX(-50%); 
+      top: -10px;
+     }
+.button-card:hover
+ {
+  background-color: rgba(224, 28, 10, 0.732) !important;
+  transition: 0.9s;
+  color: white !important;
+}  
+ .GridItem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  margin: 10px;
+   }
+
+   .list-order{
+    width: 100% !important;
+    padding: 20px !important;
+    text-align:start !important;
+       }
+  
+.GridItem-two{
+  height: 100%   ;
+  width: 100% ;
+  flex: 1;
+  display: flex;
+  justify-content:flex-start;
+  flex-wrap: wrap;
+
+ }
