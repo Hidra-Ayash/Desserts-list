@@ -1,3 +1,16 @@
+# Desserts: Indulge in the Sweetest Delights
+Your ultimate destination for discovering, baking, and savoring delectable desserts from around the world.
+
+Features:
+
+Recipe Collection: Explore a wide variety of dessert recipes, from classic favorites to innovative creations.
+
+Cultural Desserts: Discover traditional desserts from different cultures and the stories behind them.
+
+Visual Treats: Enjoy beautiful photos and videos that showcase the art of dessert making.
+
+Whether you’re a seasoned baker, a dessert enthusiast, or just someone with a sweet tooth, Desserts is your go-to resource for all things sweet and delicious!
+-------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
